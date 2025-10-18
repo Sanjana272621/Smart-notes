@@ -1,0 +1,24 @@
+# FastAPI backend
+fastapi==0.117.1
+uvicorn[standard]==0.23.2
+
+# PDF extraction & OCR
+PyMuPDF==1.24.12
+pytesseract==0.3.13
+Pillow==10.4.0
+
+# NLP & embeddings
+sentence-transformers==5.1.1
+transformers
+sentence-transformers
+torch==2.8.0
+
+# FAISS for vector indexing
+faiss-cpu==1.12.0
+numpy==2.3.3
+
+# NLTK for tokenization & POS tagging
+nltk==3.9.0
+
+# Optional utilities
+python-multipart==0.0.6  # for file uploads in FastAPI

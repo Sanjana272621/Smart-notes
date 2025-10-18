@@ -1,0 +1,352 @@
+[
+  {
+    "text": "Syllabus\nCONCEPTUAL DATA MODELING\nDatabase environment – Database system development lifecycle – Requirements collection –Database\ndesign - Entity-Relationship model – Enhanced-ER model – UML class diagrams.\nRELATIONAL MODEL AND SQL\nRelational model concepts - Integrity constraints - SQL Data manipulation – SQL Data definition –\nViews - SQL programming.\nRELATIONAL DATABASE DESIGN AND NORMALIZATION\nER and EER-to-Relational mapping – Update anomalies – Functional dependencies – Inference rules –\nMinimal cover – Properties of relational decomposition – Normalization (upto BCNF).\nTRANSACTIONS\nTransaction Concepts – ACID Properties – Schedules – Serializability – Concurrency Control – Need for\nConcurrency – Locking Protocols – Two Phase Locking – Deadlock – Transaction Recovery - Save Points\n– Isolation Levels – SQL Facilities for Concurrency and Recovery.\nNO-SQL DATABASES\nNo-SQL: CAP theorem – Document-based: MongoDB data model and CRUD operations;\nColumn-\nbased: Hbase data model and CRUD operations.",
+    "page": 1,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "Unit V  NO-SQL DATABASES \nNo-SQL: CAP theorem – Document-based: MongoDB data\nmodel and CRUD operations; Column-based: Hbase data\nmodel and CRUD operations.",
+    "page": 2,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 3,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• NoSQL databases use a variety of data models for accessing and managing data.\n• These types of databases are optimized specifically for applications that require large \ndata volume, low latency, and flexible data models\n• Types of NoSQL Databases\n• Document Databases\n• Wide-Column Databases",
+    "page": 4,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "Distributed Database\n• A distributed database is a database that runs and stores data across multiple computers\n• Example: NOSQL",
+    "page": 5,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "NOSQL CAP THEOREM",
+    "page": 6,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 7,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 8,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 9,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• A document database is a type of NoSQL database that consists of sets of key-\nvalue pairs stored into a document",
+    "page": 10,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• Being a NoSQL database, you can easily store data without implementing a \nschema\n• You can transfer the object model directly into a document using several different \nformats. The most commonly used are JSON, BSON, and XML.\n• Examples of NoSQL document databases include MongoDB, \nCouchDB, Elasticsearch, and others.",
+    "page": 11,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 12,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• The most significant benefit of having column-oriented databases is that you can \nstore large amounts of data within a single column\n• Examples of popular wide-column databases include \n• HBase , Apache Cassandra, and CosmoDB.",
+    "page": 13,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "MONGODB CRUD OPERATIONS",
+    "page": 14,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 15,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 16,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 17,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 18,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 19,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 20,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• Read Operations –\n• The Read operations are used to retrieve documents from the collection, or in \nother words, read operations are used to query a collection for a document.",
+    "page": 21,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 22,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 23,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 24,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 25,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 26,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 27,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 28,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 29,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "HBASE\n• HBase is a distributed column-oriented database built on top of the \nHadoop file system. It is an open-source project and is horizontally \nscalable.\n• it leverages the fault tolerance provided by the Hadoop File System \n(HDFS).",
+    "page": 30,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 31,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 32,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 33,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 34,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• Structure of HBASE table",
+    "page": 35,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 36,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 37,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 38,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 39,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• Update table",
+    "page": 40,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 41,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• Get- used to display specific row of table\n• Syntax:  get ‘table_name’,’row_id’",
+    "page": 42,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 43,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• List- display all list of table available",
+    "page": 44,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• Create – used to create a new table\n• Syntax:  create ‘table_name’, ‘colum_name’,…’column_name’",
+    "page": 45,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "• Put- Used to insert a record into the tables\n• Syntax:  put ‘table_name’, ‘id’,’column_name:attribute’,’value’\n• Scan- used to display table data\n• Syntax: scan ‘table_name’",
+    "page": 46,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 47,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 48,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "",
+    "page": 49,
+    "pdf_id": "DBMS Unit 5"
+  },
+  {
+    "text": "[page 1]\nCS1004: COMPUTER ORGANIZATION AND \nARCHITECTURE\nCSE, SNU Chennai\n[page 2]\nCourse Objective\n• To make students understand the basic structure and operation of digital \ncomputer \n• To understand the hardware-software interface \n• To familiarize the students with arithmetic and logic unit and \nimplementation of fixed point and floating-point arithmetic operations \n• To expose the students to the concept of pipelining \n• To familiarize the students with hierarchical memory system including \ncache memories and virtual memory \n• To expose the students with different ways of communicating with I/O \ndevices and standard I/O interfaces\n[page 3]\nCourse Outcome\n•CO1. Explain processor fundamentals \n•CO2. Design arithmetic and logic unit \n•CO3. Evaluate performance of memory systems \n•CO4. Extend the learning to parallel processing \narchitectures \n•CO5.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "Design arithmetic and logic unit •CO3. Evaluate performance of memory systems •CO4. Extend the learning to parallel processing architectures •CO5. Explain interconnection structures\n[page 4]\nTextbooks / References\n•TEXTBOOK:\n•Carl Hamacher, Zvonko Vranesic, Safwat Zaky, “Computer \nOrganization”, McGraw Hill Education, Fifth Edition, 2011\n[page 5]\nComputer\nIt is an electronic machine that takes input, process the \ninput, and gives back the result in human understandable \nformat. [page 6]\nOrganization vs.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "machine that takes input, process the input, and gives back the result in human understandable format. [page 6] Organization vs. Architecture\nComputer Architecture\n❑Layout/framework of machine which holds hardware components on which     \nsoftware is built\n❑Deals with functional behavior of computer system\n❑Design implementation for the various parts of the computer\nComputer Organization\n❑Integrating all hardware components in a single unit\n❑Deals with structural relationship\n❑Operational attributes are linked together and contribute to realize the architectural \nspecification\n[page 7]\nComputer\n• Electronic device perform a given  task\n– Input Devices  (Keyboard)\n–Output Devices (Monitor)\n–Memory Unit (Primary, Secondary)\n–Processor \n•ALU (Arithmetic and Logical Unit)\n•CU (control Unit)\n[page 8]\nFunctional units of a computer\nI/O\nProcessor\nOutput\nMemory\nInput\nControl\nArithmetic\n & Logic\nInterconnection\nnetwork\nInput unit accepts coded\ninformation:\n•Human operators using keyboards,\n•Electromechanical devices\n•Other computers\nOutput unit sends \nresults of processing:\n•To a monitor display,\n•To a printer\nArithmetic and logic unit(ALU):\n•Performs the desired \noperations on the input\ninformation as determined \nby instructions in the memory\nControl unit coordinates \nvarious actions\n•Input,\n•Output\n•Processing\nMemory\n•\nStores \n information:\n•Instructions,\n•Data\nInterconnection\nNetwork:\n•\nmeans for the functional units to\n•\n(a) Exchange information\n•\n(b) Coordinate their actions\n[page 9]\nInformation in a computer\n• Data are the “operands” upon which instructions operate.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "• (b) Coordinate their actions [page 9] Information in a computer • Data are the “operands” upon which instructions operate. • Data could be:\n–Numbers\n–Encoded characters\n• Data, in a broad sense means any digital information. • Computers use data that is encoded as a string of binary digits called bits. • Instructions are explicit commands that:\n• (a) Govern the transfer of information within a a computer as well as b/w the computer and its I/O devices. • (b) Specify the arithmetic and logic operations to be performed. • Program: List of instructions which performs a task. [page 10]\nInput unit\nInput Unit\nProcessor\nMemory\nComputer\nReal world\nKeyboard \nAudio input\n……\nBinary information must be presented to a computer in a specific format.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "Memory Computer Real world Keyboard Audio input …… Binary information must be presented to a computer in a specific format. This task is performed by the \ninput unit:\n        - Interfaces with input devices. - Accepts binary information from the input devices. - Presents this binary information in a format expected by the computer. - Transfers this information to the memory or processor. [page 11]\nMemory unit\n• Memory unit stores instructions and data. –Recall, data is represented as a series of bits. –To store data, memory unit thus stores bits. • Processor reads instructions and reads/writes data from/to the memory during the execution of a \nprogram. –In theory, instructions and data could be fetched one bit at a time. –In practice, a group of bits is fetched at a time.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "data could be fetched one bit at a time. –In practice, a group of bits is fetched at a time. –Group of bits stored or retrieved at a time is termed as “word”\n–Number of bits in a word is termed as the “word length” of a computer. –Typical word length ranges from 16 to 64 bits. • In order to read/write to and from memory, a processor should know where to look:\n–“Address” is associated with each word location. [page 12]\nArithmetic and logic unit (ALU)\n• Operations are executed in the Arithmetic and Logic Unit (ALU). –Arithmetic operations such as addition, subtraction. –Logic operations such as comparison of numbers.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "in the Arithmetic and Logic Unit (ALU). –Arithmetic operations such as addition, subtraction. –Logic operations such as comparison of numbers. • In order to execute an instruction, operands need to be brought into the ALU \nfrom the memory. –Operands are stored in general purpose registers available in the \nALU. –Access times of general purpose registers are faster than the cache. • Results of the operations are stored back in the memory or retained in the \nprocessor for immediate use. [page 13]\nOutput unit\n•Computers represent information in a specific binary form. Output units:\n   - Interface with output devices. - Accept processed results provided by the computer in specific binary form. - Convert the information in binary form to a form understood by an\n      output device.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "computer in specific binary form. - Convert the information in binary form to a form understood by an output device. Output Unit\nProcessor\nMemory\nComputer\nReal world\nPrinter\nGraphics display\nSpeakers\n……\n[page 14]\nControl unit\nOperations of Input unit, Memory, ALU and Output unit are coordinated by Control unit. ❑Nerve center that sends control signals to other units and senses their states. ❑Instructions control “what” operations take place (e.g. data transfer, processing). ❑Control unit generates timing signals which determines “when” a particular operation takes place. • Operation of a computer can be summarized as:\n–Accepts information from the input units (Input unit). –Stores the information (Memory). –Processes the information (ALU).",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "can be summarized as: –Accepts information from the input units (Input unit). –Stores the information (Memory). –Processes the information (ALU). –Provides processed results through the output units (Output unit). [page 15]\nBasic processor architecture\nProcessor\nMemory\nPC\nIR\nMDR\nControl\nALU\nR(n-1)\n-\nR1\nR0\nMAR\nn general purpose\nregisters\nAddress of the memory\nlocation to be accessed\nAddress of the next\ninstruction to be fetched\nand executed. Instruction that is\ncurrently being\nexecuted\nData to be read into or \nread out of the current \nlocation\nGeneral purpose\nregisters\n[page 16]\nRegisters in the control path\n• Instruction Register (IR):\n–Instruction that is currently being executed. • Program Counter (PC):\n–Address of the next instruction to be fetched and executed.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "–Instruction that is currently being executed. • Program Counter (PC): –Address of the next instruction to be fetched and executed. • Memory Address Register (MAR):\n–Address of the memory location to be accessed. • Memory Data Register (MDR):\n–Data to be read into or read out of the current memory location, whose address is in the \nMemory Address Register (MAR). Interrupt signal: Request from an I/O device for service by processor. ❑Normal execution  of programs may be preempted if some device requires urgent servicing. ❑For example: monitoring device detects dangerous condition. ❑Normal execution of the current program is interrupted using interrupt signal. [page 17]\nExecution of an instruction\n• Recall the steps involved in the execution of an instruction by a processor:\n–Fetch an instruction from the memory.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "• Recall the steps involved in the execution of an instruction by a processor: –Fetch an instruction from the memory. –Fetch the operands. –Execute the instruction. –Store the results. • Basic processor architecture has several registers to assist in the execution of the \ninstructions. [page 18]\nFetch/Execute cycle\n• Execution of an instruction takes place in two phases:\n–Instruction fetch. –Instruction execute. • Instruction fetch:\n–Fetch the instruction from the memory location whose address is in the Program Counter (PC). –Place the instruction in the Instruction Register (IR). • Instruction execute:\n–Instruction in the IR is examined (decoded) to determine which operation is to be performed. –Fetch the operands from the memory or registers.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "IR is examined (decoded) to determine which operation is to be performed. –Fetch the operands from the memory or registers. –Execute the operation. –Store the results in the destination location. • Basic fetch/execute cycle repeats indefinitely. [page 19]\nHow are the functional units connected? •For a computer to achieve its operation, the functional units need to communicate with each other. •In order to communicate, they need to be connected. Memory\nInput\nOutput\nProcessor\n•Functional units may be connected by a group of parallel wires. •The group of parallel wires is called a bus. •Each wire in a bus can transfer one bit of information. •The number of parallel wires in a bus is equal to the word length of a computer.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "bit of information. •The number of parallel wires in a bus is equal to the word length of a computer. •Devices connected to bus vary in speed of operation\n•Keyboards and printers are slow ; optical, magnetic disks are faster- So prefer using BUFFER REGISTERS!! Bus\n[page 20]\nOrganization of cache and main memory\nMain\nmemory\nProcessor\nBus\nCache\nmemory\n❑All program instructions and data are stored in main memory. ❑As execution proceeds, instructions are fetched over the bus into the processor, and copy is placed in \ncache. [page 21]\nContd. ❑When execution of an instruction calls for data located in the main memory, the data \nis fetched and copy is placed in the cache. ❑Later, if the same instruction or data is needed second time, it is read directly from \ncache.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "in the cache. ❑Later, if the same instruction or data is needed second time, it is read directly from cache. ➢The processor and a small cache memory can be fabricated in a single integrated \ncircuit chip ! ! ➢If repeatedly used instructions are placed in the cache, they can be fetched quickly. ➢Program will be executed faster\n[page 22]\nPerformance\n▪Measure of performance of a computer is how quickly it can execute programs.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "will be executed faster [page 22] Performance ▪Measure of performance of a computer is how quickly it can execute programs. ▪Speed with which a computer executed programs is affected by :\n✓Design of its hardware\n✓Machine language instructions\n✓Compiler that translates high-level language into machine language\n▪For best performance, coordination is required b/w:\n✓Compiler design\n✓Machine instruction set\n✓Compiler design\n[page 23]\nParameters affecting the processor time\n1. Processor clock\n❑Processor circuits are controlled by a timing signal called clock. ❑Clock defines regular time intervals, called clock cycles. ❑ To execute a machine instruction, processor divides the action to be performed in \nsteps. ❑Each step completed in one clock cycle.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "execute a machine instruction, processor divides the action to be performed in steps. ❑Each step completed in one clock cycle. P= length of one clock cycle (Affects processor performance) \nClock rate, R= 1/P  ( cycles per second or hertz)\n❑Today’s processors have few hundred million to billion cycles per second. [page 24]\nContd. 2. Basic performance equation\n. ❑Compiler generates machine language program corresponding to source program. ❑Complete execution requires N machine language instructions. N- actual number of instruction executions\n❑Average number of basic steps to execute one machine instructions is, S in one clock cycle.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "number of instruction executions ❑Average number of basic steps to execute one machine instructions is, S in one clock cycle. ❑If clock rate is R cycles per second,\nProcessor time required to execute a program that is in high-level language is\nT=(N X S)/R\n❑To achieve high performance, reduce T by reducing N and S and increasing R.\n[page 25]\n3. Pipelining and superscalar operation\n➢Performance can be improved by overlapping the execution of successive instructions using \npipelining\n➢Consider the instruction\nAdd R1,R2,R3\nAdds the contents of R1 and R2 and result is placed in R3\n➢The processor can read the next instruction while addition being performed. ➢Higher degree of concurrency can be achieved if multiple instruction pipelines are \nimplemented.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "the next instruction while addition being performed. ➢Higher degree of concurrency can be achieved if multiple instruction pipelines are implemented. ➢Superscalar execution:\nMultiple functional units are used creating parallel paths for different instructions. [page 26]\n4. Clock rate\nPossibilities for increasing the clock rate, R\n1. Improving the integrated-circuit (IC) technology \n➢to make logic circuits faster by reducing the time. ➢allows clock period, P to reduce and clock rate, R is increased. 2. Reducing the amount of processing done in one basic step reduces clock period, P.\n[page 27]\n5. Instruction Set: CISC and RISC\n❑Simple instructions require a small number of basic steps to execute. ❖Here, large number of instructions are needed \n❖N increases and S decrease.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "a small number of basic steps to execute. ❖Here, large number of instructions are needed ❖N increases and S decrease. ❑Complex instructions  involve large number of steps. ❖Fewer instructions are needed. ❖Lower value of N and S increases. ❑Design of the instruction set of a processor and the options include:\n❖Reduced Instruction Set Computers (RISC)  - Processors with simple processors. ❖Complex Instruction Set Computers (CISC)  - Processors with complex instructions. [page 28]\n6. Complier\n❑Compiler translates high-level language program into a sequence of machine instructions. ❑To reduce N, suitable machine instruction set and compiler \n❑Optimized compiler reduces the product N X S, \n which is total number of clock cycles needed to execute a program.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "❑Optimized compiler reduces the product N X S, which is total number of clock cycles needed to execute a program. ❑Compiler may rearrange program instructions to achieve better performance. ❑High-quality compiler must be closely linked to the processor architecture. ❑Objective is to reduce the total number of clock cycles needed to perform a required programming \ntask\n[page 29]\n7. Performance measurement\n❑System Performance Evaluation Corporation (SPEC) rating is,\nSPEC rating= Running time on the reference computer/Running time on the computer under test\n❑The test is repeated for all the programs in the SPEC suite and geometric mean is computed. ❑The overall SPEC rating=\n[page 30]\n8. Multiprocessors and multi-computers\n❑ Large computer systems may contain a number of processor units, they are multiprocessor \nsystems.",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  },
+  {
+    "text": "30] 8. Multiprocessors and multi-computers ❑ Large computer systems may contain a number of processor units, they are multiprocessor systems. ❑ These systems either execute a number of different application tasks in parallel, or they \nexecute subtasks of single large tasks in parallel. ❑An interconnected group of complete computers to achieve high computational power- multi-\ncomputers",
+    "page": null,
+    "pdf_id": "Unit 1_PPT_1"
+  }
+]
